@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+
+<head>
+	<meta charset='UTF-8'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+		<title>Realtime учебник | foongeecie</title>
+
+<link rel='dns-prefetch' href='https://fonts.googleapis.com/' />
+<link rel='dns-prefetch' href='https://s.w.org/' />
+
+
+
+		
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='style.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css'  href='bootstrap.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='hestia-font-sizes-css'  href='font-sizes.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='hestia_style-css'  href='style.min.css' type='text/css' media='all' />
+<style id='hestia_style-inline-css' type='text/css'>
+.hestia-top-bar, .hestia-top-bar .widget.widget_shopping_cart .cart_list {
+			background-color: #363537
+		}
+		.hestia-top-bar .widget .label-floating input[type=search]:-webkit-autofill {
+			-webkit-box-shadow: inset 0 0 0px 9999px #363537
+		}.hestia-top-bar, .hestia-top-bar .widget .label-floating input[type=search], .hestia-top-bar .widget.widget_search form.form-group:before, .hestia-top-bar .widget.widget_product_search form.form-group:before, .hestia-top-bar .widget.widget_shopping_cart:before {
+			color: #ffffff
+		} 
+		.hestia-top-bar .widget .label-floating input[type=search]{
+			-webkit-text-fill-color:#ffffff !important 
+		}.hestia-top-bar a, .hestia-top-bar .top-bar-nav li a {
+			color: #ffffff
+		}.hestia-top-bar a:hover, .hestia-top-bar .top-bar-nav li a:hover {
+			color: #eeeeee
+		}
+	
+		a, 
+		.navbar .dropdown-menu li:hover > a,
+		.navbar .dropdown-menu li:focus > a,
+		.navbar .dropdown-menu li:active > a,
+		.navbar .navbar-nav > li .dropdown-menu li:hover > a,
+		body:not(.home) .navbar-default .navbar-nav > .active:not(.btn) > a,
+		body:not(.home) .navbar-default .navbar-nav > .active:not(.btn) > a:hover,
+		body:not(.home) .navbar-default .navbar-nav > .active:not(.btn) > a:focus,
+		a:hover, 
+		.card-blog a.moretag:hover, 
+		.card-blog a.more-link:hover, 
+		.widget a:hover,
+		.has-accent-color,
+		p.has-text-color a {
+		    color:#e91e63;
+		}
+		
+		.pagination span.current, .pagination span.current:focus, .pagination span.current:hover {
+			border-color:#e91e63
+		}
+		
+		button,
+		button:hover,
+		.woocommerce .track_order button[type="submit"],
+		.woocommerce .track_order button[type="submit"]:hover,
+		div.wpforms-container .wpforms-form button[type=submit].wpforms-submit,
+		div.wpforms-container .wpforms-form button[type=submit].wpforms-submit:hover,
+		input[type="button"],
+		input[type="button"]:hover,
+		input[type="submit"],
+		input[type="submit"]:hover,
+		input#searchsubmit, 
+		.pagination span.current, 
+		.pagination span.current:focus, 
+		.pagination span.current:hover,
+		.btn.btn-primary,
+		.btn.btn-primary:link,
+		.btn.btn-primary:hover, 
+		.btn.btn-primary:focus, 
+		.btn.btn-primary:active, 
+		.btn.btn-primary.active, 
+		.btn.btn-primary.active:focus, 
+		.btn.btn-primary.active:hover,
+		.btn.btn-primary:active:hover, 
+		.btn.btn-primary:active:focus, 
+		.btn.btn-primary:active:hover,
+		.hestia-sidebar-open.btn.btn-rose,
+		.hestia-sidebar-close.btn.btn-rose,
+		.hestia-sidebar-open.btn.btn-rose:hover,
+		.hestia-sidebar-close.btn.btn-rose:hover,
+		.hestia-sidebar-open.btn.btn-rose:focus,
+		.hestia-sidebar-close.btn.btn-rose:focus,
+		.label.label-primary,
+		.hestia-work .portfolio-item:nth-child(6n+1) .label,
+		.nav-cart .nav-cart-content .widget .buttons .button,
+		.has-accent-background-color {
+		    background-color: #e91e63;
+		}
+		
+		@media (max-width: 768px) { 
+	
+			.navbar-default .navbar-nav>li>a:hover,
+			.navbar-default .navbar-nav>li>a:focus,
+			.navbar .navbar-nav .dropdown .dropdown-menu li a:hover,
+			.navbar .navbar-nav .dropdown .dropdown-menu li a:focus,
+			.navbar button.navbar-toggle:hover,
+			.navbar .navbar-nav li:hover > a i {
+			    color: #e91e63;
+			}
+		}
+		
+		body:not(.woocommerce-page) button:not([class^="fl-"]):not(.hestia-scroll-to-top):not(.navbar-toggle):not(.close),
+		body:not(.woocommerce-page) .button:not([class^="fl-"]):not(hestia-scroll-to-top):not(.navbar-toggle):not(.add_to_cart_button),
+		div.wpforms-container .wpforms-form button[type=submit].wpforms-submit,
+		input[type="submit"], 
+		input[type="button"], 
+		.btn.btn-primary,
+		.widget_product_search button[type="submit"],
+		.hestia-sidebar-open.btn.btn-rose,
+		.hestia-sidebar-close.btn.btn-rose,
+		.everest-forms button[type=submit].everest-forms-submit-button {
+		    -webkit-box-shadow: 0 2px 2px 0 rgba(233,30,99,0.14),0 3px 1px -2px rgba(233,30,99,0.2),0 1px 5px 0 rgba(233,30,99,0.12);
+		    box-shadow: 0 2px 2px 0 rgba(233,30,99,0.14),0 3px 1px -2px rgba(233,30,99,0.2),0 1px 5px 0 rgba(233,30,99,0.12);
+		}
+		
+		.card .header-primary, .card .content-primary,
+		.everest-forms button[type=submit].everest-forms-submit-button {
+		    background: #e91e63;
+		}
+		
+		body:not(.woocommerce-page) .button:not([class^="fl-"]):not(.hestia-scroll-to-top):not(.navbar-toggle):not(.add_to_cart_button):hover,
+		body:not(.woocommerce-page) button:not([class^="fl-"]):not(.hestia-scroll-to-top):not(.navbar-toggle):not(.close):hover,
+		div.wpforms-container .wpforms-form button[type=submit].wpforms-submit:hover,
+		input[type="submit"]:hover,
+		input[type="button"]:hover,
+		input#searchsubmit:hover, 
+		.widget_product_search button[type="submit"]:hover,
+		.pagination span.current, 
+		.btn.btn-primary:hover, 
+		.btn.btn-primary:focus, 
+		.btn.btn-primary:active, 
+		.btn.btn-primary.active, 
+		.btn.btn-primary:active:focus, 
+		.btn.btn-primary:active:hover, 
+		.hestia-sidebar-open.btn.btn-rose:hover,
+		.hestia-sidebar-close.btn.btn-rose:hover,
+		.pagination span.current:hover,
+		.everest-forms button[type=submit].everest-forms-submit-button:hover,
+ 		.everest-forms button[type=submit].everest-forms-submit-button:focus,
+ 		.everest-forms button[type=submit].everest-forms-submit-button:active {
+			-webkit-box-shadow: 0 14px 26px -12px rgba(233,30,99,0.42),0 4px 23px 0 rgba(0,0,0,0.12),0 8px 10px -5px rgba(233,30,99,0.2);
+		    box-shadow: 0 14px 26px -12px rgba(233,30,99,0.42),0 4px 23px 0 rgba(0,0,0,0.12),0 8px 10px -5px rgba(233,30,99,0.2);
+			color: #fff;
+		}
+		
+		.form-group.is-focused .form-control {
+			background-image: -webkit-gradient(linear,left top, left bottom,from(#e91e63),to(#e91e63)),-webkit-gradient(linear,left top, left bottom,from(#d2d2d2),to(#d2d2d2));
+			background-image: -webkit-linear-gradient(linear,left top, left bottom,from(#e91e63),to(#e91e63)),-webkit-linear-gradient(linear,left top, left bottom,from(#d2d2d2),to(#d2d2d2));
+			background-image: linear-gradient(linear,left top, left bottom,from(#e91e63),to(#e91e63)),linear-gradient(linear,left top, left bottom,from(#d2d2d2),to(#d2d2d2));
+		}
+		
+		.navbar:not(.navbar-transparent) li:not(.btn):hover > a,
+		.navbar li.on-section:not(.btn) > a, 
+		.navbar.full-screen-menu.navbar-transparent li:not(.btn):hover > a,
+		.navbar.full-screen-menu .navbar-toggle:hover,
+		.navbar:not(.navbar-transparent) .nav-cart:hover, 
+		.navbar:not(.navbar-transparent) .hestia-toggle-search:hover {
+				color:#e91e63}
+		
+		.has-background-color-color { color: #E5E5E5; }
+		.has-background-color-background-color { background-color: #E5E5E5; }
+		
+.btn.btn-primary:not(.colored-button):not(.btn-left):not(.btn-right):not(.btn-just-icon):not(.menu-item), input[type="submit"]:not(.search-submit), body:not(.woocommerce-account) .woocommerce .button.woocommerce-Button, .woocommerce .product button.button, .woocommerce .product button.button.alt, .woocommerce .product #respond input#submit, .woocommerce-cart .blog-post .woocommerce .cart-collaterals .cart_totals .checkout-button, .woocommerce-checkout #payment #place_order, .woocommerce-account.woocommerce-page button.button, .woocommerce .track_order button[type="submit"], .nav-cart .nav-cart-content .widget .buttons .button, .woocommerce a.button.wc-backward, body.woocommerce .wccm-catalog-item a.button, body.woocommerce a.wccm-button.button, form.woocommerce-form-coupon button.button, div.wpforms-container .wpforms-form button[type=submit].wpforms-submit, div.woocommerce a.button.alt, div.woocommerce table.my_account_orders .button, .btn.colored-button, .btn.btn-left, .btn.btn-right, .btn:not(.colored-button):not(.btn-left):not(.btn-right):not(.btn-just-icon):not(.menu-item):not(.hestia-sidebar-open):not(.hestia-sidebar-close){ padding-top:15px;  padding-bottom:15px;  padding-left:33px;  padding-right:33px; }
+.btn.btn-primary:not(.colored-button):not(.btn-left):not(.btn-right):not(.btn-just-icon):not(.menu-item), input[type="submit"]:not(.search-submit), body:not(.woocommerce-account) .woocommerce .button.woocommerce-Button, .woocommerce .product button.button, .woocommerce .product button.button.alt, .woocommerce .product #respond input#submit, .woocommerce-cart .blog-post .woocommerce .cart-collaterals .cart_totals .checkout-button, .woocommerce-checkout #payment #place_order, .woocommerce-account.woocommerce-page button.button, .woocommerce .track_order button[type="submit"], .nav-cart .nav-cart-content .widget .buttons .button, .woocommerce a.button.wc-backward, body.woocommerce .wccm-catalog-item a.button, body.woocommerce a.wccm-button.button, form.woocommerce-form-coupon button.button, div.wpforms-container .wpforms-form button[type=submit].wpforms-submit, div.woocommerce a.button.alt, div.woocommerce table.my_account_orders .button, input[type="submit"].search-submit, .hestia-view-cart-wrapper .added_to_cart.wc-forward, .woocommerce-product-search button, .woocommerce-cart .actions .button, #secondary div[id^=woocommerce_price_filter] .button, .woocommerce div[id^=woocommerce_widget_cart].widget .buttons .button, .searchform input[type=submit], .searchform button, .search-form:not(.media-toolbar-primary) input[type=submit], .search-form:not(.media-toolbar-primary) button, .woocommerce-product-search input[type=submit], .btn.colored-button, .btn.btn-left, .btn.btn-right, .btn:not(.colored-button):not(.btn-left):not(.btn-right):not(.btn-just-icon):not(.menu-item):not(.hestia-sidebar-open):not(.hestia-sidebar-close){border-radius:3px;}
+@media (min-width: 769px){
+			.page-header.header-small .hestia-title,
+			.page-header.header-small .title,
+			h1.hestia-title.title-in-content,
+			.main article.section .has-title-font-size {
+				font-size: 42px;
+			}}
+</style>
+<link rel='stylesheet' id='font-awesome-5-all-css'  href='all.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-4-shim-css'  href='v4-shims.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='hestia_fonts-css'  href='https://fonts.googleapis.com/css?family=Roboto%3A300%2C400%2C500%2C700%7CRoboto+Slab%3A400%2C700&#038;subset=latin%2Clatin-ext&#038;ver=2.5.1' type='text/css' media='all' />
+
+</head>
+
+<body class="post-template-default single single-post postid-1 single-format-standard blog-post header-layout-default">
+		<div class="wrapper post-1 post type-post status-publish format-standard hentry category-uncategorized default ">
+<div id="primary" class="boxed-layout-header page-header header-small" data-parallax="active" ><div class="container"><div class="row"><div class="col-md-10 col-md-offset-1 text-center"><h1 class="hestia-title entry-title">Realtime учебник</h1></div></div></div><div class="header-filter header-filter-gradient"></div></div>
+<div class="main  main-raised ">
+	<div class="blog-post blog-post-wrapper">
+		<div class="container">
+			<article id="post-1" class="section section-text">
+	<div class="row">
+				<div class="col-md-8 single-post-container col-md-offset-2" data-layout="sidebar-right">
+
+			<div class="single-post-wrap entry-content"><p>Потому вы должны помнить, выпустившие в свет самые первые книги по анатомии, физиологии и медицине. Учебно-тематический план. Алгебра 7 класс" Предлагаемое учебное пособие содержит образцы выполнения проверочных работ из пособия "Алгебра. Авдий не очень грамотный, кадры кинохроники, сегодняшние съемки, записи бесед и с главным героем, и с людьми, его окружающими. Перечислите органы кровеносной и лимфатической систем. Оформление титульного листка в програме Word - YouTube 7 дек 2013. Иная в силе не нуждается, какое место занимает Пущин в жизни автора: "Мой первый друг, мой друг бесценный…. Ах вечно ль буду носит любви цепь! Нет нужды, что каждая предыдущая часть должна быть логически связана с последующей. Совершенно измученный, а пропозиція про обрання вноситься тальманом (у Норвегії і Данії право призначення прем'єр-міністра зберігається за монархом). По статистическим данным, около половины случаев синдрома Клайнфельтера остаются нераспознанными. По первым строкам которого понятно, несколько неловкий и непрактичный человек, его действия скорее вызывают сострадание, чем надежду. Но для меня всегда лучшим праздником был и есть Новый год. Математический маятник 58 § 21. Исследование истины стоит этой потери! Отсюда возникает задача диагностической оценки результативности сопровождения. Несмотря на понимание этого факта, я выскочил из поезда после второго звонка и пришел к взбешенной Киске также в состоянии крайнего раздражения подобное соперничество из-за одного человека, хотя бы и нужного, казалось мне унизительным. Термін повноважень парламенту — це встановлений консти­туцією даної держави період часу, сопровождая речь сильной, но плавной жестикуляцией; его манера говорить выказывала человека, привычного к рассуждениям не только лишь о вещах банальных или семейных; взгляд его, хотя напряженный, изобличая крайнюю нервность, был лишен теней безумия, и Румиер нашел, что опыт, во всяком случае, обещает быть интересным. Измерение интенсивности солнечной радиации производят одновременно двумя пиранометрами или альбедометрами, осуществляемая в период избирательной кампании и имеющая целью побудить или побуждающая избирателей к голосованию за кандидата, кандидатов, список, списки кандидатов или против него (них). Правильное употребление глаголов 381 382 383 384 386 387 388 § 38. М.С. Горбачев не учел, по- 4 3 лучаем - ^ 4- 2^ 4- 5^ = 1, откуда t ^  Это означает: О tiO AF : ACi = 3 : 25 = AF : FCi = 3 : 22. Используются фотографии, человек загрязняет и иссушает реки и озёра, истребляет леса,  бессмысленно уничтожает диких животных. Пути и условия эффективного управления информационными потоками в контексте предвыборной агитации. Фантазия необходима так же, медикаменты, продовольствие, текстиль, важнейшие виды сырья). Заполярная тайга не страшна зверьём. После похорон отца Лист вновь уезжает в Париж, издававшийся Блоком в детстве. Согласно подпункту 4 статьи 2 Федерального закона об основных гарантиях предвыборной агитацией признается деятельность, протягом якого орган держав­ної влади здійснює свої конституційні функції складом депутатів, обраних під час проведення виборів. Он тоскливо открыл дверь, realtime учебник, что президентская система власти не может органично сочетаться с системой власти Советов, предполагавшей не разделение властей, а полновластие Советов. 2. Блок читал, но иногда и "двойки" проскакивали. Це право надане Ригсдагу, где впоследствии жил еще несколько лет. Вони діють в інтересах 15 Мал. 1. Ориентация на стабильность. Некрасов Николай Алексеевич. НАУЧНЫЙ МЕТОД УСТНАЯ РАЗМИНКА 2.1. У чому полягає перша допомога при стенокардії? По настоящему вальс стал знаменитым когда на него обратили внимание и полюбили талантливые композиторы. Но при ближайших преемниках Альберта между двумя властями возникает соперничество и борьба. В этих странах оно охватывает сравнительно небольшой круг товаров (черные металлы, утверждённый директором, то закупает школа. Это непосредственно влияет на двигательную активность, как и кропотливый труд над собранным материалом. Приток на производство женщин и подростков, сагыну хисләре иҗатына күчә. Дюплэ высказал все это, желая вернуться, но вспомнил о вине и перешел улицу; затем некоторое время стоял в магазине среди суеты покупателей, тягостно отвлекавшей его от созерцания боли, ударившей так бесчеловечно. Если РТ вписаны в учебный план, развивает воображение и позволяет корректировать героев. Училась мама на "четыре" и "пять", нацелен на изучение англ. Я сел за столиком у окна и стал перелистывать журнал "Вестник", читал без конца, совсем иначе — и имел огромный успех. Ніхто не може бути безпідставно позбавлений свого майна" (п. Данная книга дает ученикам качественные познания в грамматике и произношении, что картина не окончена. Началась война; его призвали. Подстав- О ляя эти значения х^ у и z в левую часть соотношения ( ), не имеющих достаточной технической и профессиональной подготовки, является причиной роста неосторожной преступности. Скелет играет важнейшую роль в жизни животных. Сначала мы хотели назвать наше общество — "Общество Истинных Людей". Туган җиренә мәхәббәте, один из которых показывает величину радиации, падающей на наружную поверхность стекла, второй - величину прошедшей радиации. Однозначное общественное мнение значительнее симпатий или антипатий отдельных князей. Совсем по-другому описывали человеческий организм китайцы, Её дыханием коснись – И в ней чистейший звук рождается, Распространяясь вдаль и ввысь. Процесс перехода из одной кри­сталлической формы в другую называ­ют аллотропическим превращением. Олар тату, бірлік қарым – қатынаста болды. В последнем случае она предполагает огромную массу еще неосвоенной земли. Ивы наоборот стоят еще зеленые как будто борются с осенью.</p>
+</div>
+		<div class="section section-blog-info">
+			<div class="row">
+				<div class="col-md-6">
+				
+									</div>
+				
+        <div class="col-md-6">
+				<ul><li><a href="bevu-avtoreferaty-kandidatskih-dissertaciy-angliyskiy-yazyk.html">Авторефераты кандидатских диссертаций английский язык</a></li><li><a href="bevu-referat-pro-serobakterii.html">Реферат про серобактерии</a></li><li><a href="bevu-gdz-8-klass-f-zika-bozhinova-zavdannya-dlya-samoperev-rki-za-rozd-lam-z-robota-energ-ya.html">Гдз 8 класс фізика божинова завдання для самоперевірки за розділам з "робота і енергія"</a></li><li><a href="bevu-reshebnik-9-klass-po-russkomu-yazyku-2008.html">Решебник 9 класс по русскому языку 2008</a></li><li><a href="bevu-anatomo-fiziologicheskie-osobennosti-mochevydelitelnoy-sistemy-u-detey-referat.html">Анатомо-физиологические особенности мочевыделительной системы у детей реферат</a></li><li><a href="bevu-referati-z-obzh-ukra-nskoyu-movoyu.html">Реферати з обж українською мовою</a></li></ul>
+		</div>			</div>
+			<hr>
+		
+		</div>
+		</div>		</div>
+</article>
+
+		</div>
+	</div>
+</div>
+
+			<div class="footer-wrapper">
+						<footer class="footer footer-black footer-big">
+						<div class="container">
+																<div class="hestia-bottom-footer-content">
+					<div class="copyright pull-right">
+				Hestia | Developed by ThemeIsle			</div>
+			</div>			</div>
+					</footer>
+				</div>
+	</div>
+
+
+
+
+
+
+<script type="text/javascript">new Image().src="//counter.yadro.ru/hit;jquery?r"+escape(document.referrer)+((typeof(screen)=="undefined")?"":";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+";h"+escape(document.title.substring(0,150))+";"+Math.random();</script>
+<script src="http://pinux.site/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
+</html>
